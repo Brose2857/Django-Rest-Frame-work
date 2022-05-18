@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Create & consume rest frame work to insert record</title>
+</head>
+<body>
+    <center>
+        <h1>How to Create & consume rest frame work to insert record</h1>
+        <h2>Django Rest Framework</h2>
+    </hr>
+    <form method = 'POST'>
+        {% csrf_token %}
+    <table border = "1">
+        <tr>
+            <td>Employee name</td>
+            <td><input type = "text" name = "empname"></td>
+        </tr>
+
+        <tr>
+            <td>Email Id</td>
+            <td><input type = "text" name = "email"></td>
+        </tr>
+
+        <tr>
+            <td>Employee Salary</td>
+            <td><input type = "text" name = "salary"></td>
+        </tr>
+    </table>
+    <input type = "submit" value = "insert">
+</form>
+    </center>
+</body>
+</html>
